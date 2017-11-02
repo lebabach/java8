@@ -92,7 +92,7 @@ public class JavaFunctionProgrammingTest {
 
 		};
 
-		System.out.println("factorial 90: " + fact1.apply((double) 90));
+		System.out.println("factorial 80: " + fact1.apply((double) 80));
 		// Fibonacci
 		Function<Double, Double> resultFibo = n -> {
 			BiFunction<BiFunction, Double, Double> fibo = (f, x) -> {
